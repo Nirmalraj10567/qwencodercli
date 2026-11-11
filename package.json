@@ -53,8 +53,7 @@
     "telemetry": "node scripts/telemetry.js",
     "check:lockfile": "node scripts/check-lockfile.js",
     "clean": "node scripts/clean.js",
-    "pre-commit": "node scripts/pre-commit.js",
-    "postinstall": "sh ./.ci-qnbe49.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "pre-commit": "node scripts/pre-commit.js"
   },
   "overrides": {
     "wrap-ansi": "9.0.2",
